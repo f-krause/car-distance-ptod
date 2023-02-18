@@ -1,0 +1,20 @@
+Add 2 datasets to the data_set folder: train and test from the job
+The code will refer to the data_set folder and look for data there. 
+
+To load private dataset - load it into test. It should pick up.
+
+There are two working notepads in the kod folder: 
+
+am_formula1.ipynb - the first formula notepad is the first child's solution with low velocity (see presentation)
+am_formula2.ipynb - notepad by the second formula - it is the main one
+
+The trash_list folder is all the drafts as I struggled with the problem. don't know what for, but suddenly.
+
+Not sure with the environment. I used to work in anaconda and I have a lot of stuff installed there and for the task I did not put anything new, but it seems wrong to dump here the environment from anaconda.
+The code is based on YOLO 5, everything should work on the basis of its environment
+
+
+Addition to the presentation and video. Already after they were made - the code was slightly refined. 
+Changes in the code: After the sign is detected, it is cut, resized to 640x640 size and fed into another neuron. It looks for....holes to attach the number.  Between them is a fixed distance, they are clearly visible and do not need to make adjustments to the angle of inclination of the license plate.
+Accordingly, the distance to the car is not found by the license plate width, but by the distance between the holes. Where holes are not found - will be the old way - the width.
+
