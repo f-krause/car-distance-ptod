@@ -37,6 +37,9 @@ data/images/*
 
 results*.csv
 
+# Whole dataset folder
+data_set/
+
 # Datasets -------------------------------------------------------------------------------------------------------------
 coco/
 coco128/
