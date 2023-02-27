@@ -39,7 +39,7 @@ results*.csv
 
 # Whole dataset folder
 data_set/
-dataset/
+datasets/
 
 # Datasets -------------------------------------------------------------------------------------------------------------
 coco/
