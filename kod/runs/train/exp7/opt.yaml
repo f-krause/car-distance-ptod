@@ -1,6 +1,6 @@
-weights: yolov5m.pt
+weights: yolov5s.pt
 cfg: ''
-data: /home/jovyan/car-distance-ptod/kod/data/coco128.yaml
+data: ../datasets/plates/plates.yaml
 hyp:
   lr0: 0.01
   lrf: 0.01
@@ -30,9 +30,9 @@ hyp:
   mosaic: 1.0
   mixup: 0.0
   copy_paste: 0.0
-epochs: 300
+epochs: 2
 batch_size: 16
-imgsz: 320
+imgsz: 640
 rect: false
 resume: false
 nosave: false
@@ -41,7 +41,7 @@ noautoanchor: false
 noplots: false
 evolve: null
 bucket: ''
-cache: null
+cache: ram
 image_weights: false
 device: ''
 multi_scale: false
@@ -65,4 +65,4 @@ entity: null
 upload_dataset: false
 bbox_interval: -1
 artifact_alias: latest
-save_dir: runs/train/exp
+save_dir: runs/train/exp7
